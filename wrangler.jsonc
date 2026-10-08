@@ -17,10 +17,6 @@
     { "binding": "STORAGE", "bucket_name": "web-fetch-storage" }
   ],
 
-  // Headless Chrome. Needed for browser interaction and paper-size PDFs;
-  // plain fetching and the REST endpoints work without it.
-  "browser": { "binding": "BROWSER" },
-
   // Workers AI — the compression fallback when no AI Gateway is configured.
   "ai": { "binding": "AI" },
 
